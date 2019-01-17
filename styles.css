@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: url(./IMG/headerImgSun.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.main-header__title {
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    padding-top: 250px;
+    color: #f5f5f5;
+}
+
+.main-header__subtitle {
+    padding-bottom: 50px;
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    color: #f5f5f5;
+}
+
+.main-button {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background: #f6793d;
+    border-radius: 10px;
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    color: #000000;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.main-nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.main-nav__item--link {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    color: #f5f5f5;
+
+}
+
+.main-nav__item--icon {
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 30px;
+    width: 30px;
+    color: #ffffff
+}
