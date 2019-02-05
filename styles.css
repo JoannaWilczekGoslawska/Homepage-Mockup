@@ -69,3 +69,20 @@
     height: 30px;
     
 }
+.main-section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.main-section--grey {
+background: #f0f0f0;
+}
+
+.main-section__article {
+    padding-bottom: 20px;
+    
+}
