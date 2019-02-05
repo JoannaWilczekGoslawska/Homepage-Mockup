@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 .main-header {
     display: flex;
     flex-flow: column;
@@ -31,7 +36,7 @@
 }
 
 .main-button {
-    display: block;
+    display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
     background: #f6793d;
@@ -74,15 +79,22 @@
     flex-flow: column;
     align-items: center;
     padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
-}
+    padding-bottom: 50px;
+   }
 
 .main-section--grey {
-background: #f0f0f0;
+    background: #f0f0f0;
 }
 
 .main-section__article {
     padding-bottom: 20px;
     
+}
+
+.main-article__title {
+    padding-bottom: 10px;
+}
+
+.main-article__paragraph {
+    padding-bottom: 15px;
 }
