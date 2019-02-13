@@ -87,8 +87,26 @@
 }
 
 .main-section__article {
-    padding-bottom: 20px;
-    
+    display: flex;
+    flex-flow: row;
+}
+
+.main-article__content {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+}
+
+.main-article__content--left {
+    align-items: flex-start;
+}
+
+.main-article__content--right {
+    align-items: flex-end;
+}
+
+.main-article__picture {
+    flex: 1;
 }
 
 .main-article__title {
