@@ -74,13 +74,12 @@
     height: 30px;
     
 }
+
 .main-section {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-   }
+}
 
 .main-section--grey {
     background: #f0f0f0;
@@ -95,6 +94,8 @@
     display: flex;
     flex-flow: column;
     flex: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .main-article__content--left {
@@ -107,6 +108,8 @@
 
 .main-article__picture {
     flex: 1;
+    position: relative;
+    overflow: hidden;    
 }
 
 .main-article__title {
@@ -115,4 +118,19 @@
 
 .main-article__paragraph {
     padding-bottom: 15px;
+}
+
+.main-article__img {
+    position: absolute;
+}
+
+.main-article__img--right {
+    width: 640px;
+    bottom: -220px;
+    left: 20px;
+}
+.main-article__img--left {
+    width: 320px;
+    top: 20px;
+    right: 220px;
 }
