@@ -181,3 +181,31 @@
     height: 234px;
     padding: 0 22px;
 }
+
+.main-section__subscribe {
+    height: 640px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.main-subscribe__form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-form__label {
+
+}
+
+.email__input {
+
+}
+
+.email__submit {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
