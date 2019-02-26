@@ -205,7 +205,10 @@
 }
 
 .email__input {
-
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
 }
 
 .email__submit {
@@ -213,3 +216,4 @@
     background: none;
     cursor: pointer;
 }
+
