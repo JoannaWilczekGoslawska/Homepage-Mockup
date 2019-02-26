@@ -187,6 +187,10 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
+    background: url('IMG/subscribeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .main-subscribe__form {
